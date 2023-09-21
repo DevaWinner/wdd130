@@ -1,50 +1,50 @@
 nav {
-  background-color: steelblue;
-  padding: 10px;
+	background-color: steelblue;
+	padding: 10px;
 }
 
 nav a {
-  color: white;
-  display: block;
-  padding: 20px;
+	color: white;
+	display: block;
+	padding: 20px;
 }
 
 main {
-  max-width: 800px;
+	max-width: 800px;
 }
 
 h1 {
-  color: steelblue;
+	color: steelblue;
 }
 
 main img {
-  width: 150px;
-  height: auto;
-  border: 1px solid steelblue;
-  padding: 2px;
-  box-shadow: 0 0 30px gray;
+	width: 150px;
+	height: auto;
+	border: 1px solid steelblue;
+	padding: 2px;
+	box-shadow: 0 0 30px gray;
 }
 
 p {
-  padding: 0;
+	padding: 0;
 }
 
 aside {
-  width: 500px;
-  margin: 20px;
-  border: rgba(0, 0, 0, 0.2);
-  padding: 15px;
-  background-color: #361111;
-  color: #fff;
+	width: 500px;
+	margin: 20px;
+	border: rgba(0, 0, 0, 0.2);
+	padding: 15px;
+	background-color: #361111;
+	color: #fff;
 }
 
 aside img {
-  width: 200px;
-  height: auto;
+	width: 200px;
+	height: auto;
 }
 
 footer {
-  margin-top: 2em;
-  border-top: 1px solid #000;
-  text-align: center;
+	margin-top: 2em;
+	border-top: 1px solid #000;
+	text-align: center;
 }
