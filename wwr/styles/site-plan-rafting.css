@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Montserrat:wght@400;500;600;700;800;900&display=swap');
+
+:root {
+  --primary-color: #007bff;
+  --secondary-color: #6c757d;
+  --accent-color: #ffc107;
+  --additional-accent-color: #28a745;
+
+  --heading-font: 'Lato', sans-serif;
+  --paragraph-font: 'Montserrat', sans-serif;
+
+  --navigation-bg-color: #f8f9fa;
+  --navigation-link-color: #343a40;
+  --navigation-hover-link-color: #007bff;
+  --navigation-hover-bg-color: #e9ecef;
+}
+
+body {
+  font-family: var(--paragraph-font);
+  max-width: 960px;
+  padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--heading-font);
+  color: var(--primary-color);
+}
+
+header {
+  padding: 20px;
+  background-color: var(--accent-color);
+}
+
+p {
+  padding: 10px 0;
+}
+
+nav {
+  background-color: var(--navigation-bg-color);
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  display: block;
+  color: var(--navigation-link-color);
+  text-decoration: none;
+  padding: 10px;
+}
+
+nav a:link, nav a:visited {
+  color: var(--navigation-link-color);
+}
+
+nav a:hover {
+  color: var(--navigation-hover-link-color);
+  background-color: var(--navigation-hover-bg-color);
+}
