@@ -2,17 +2,17 @@
 
 :root {
 	--primary-color: #007bff;
-	--secondary-color: #6c757d;
-	--accent1-color: #ffc107;
+	--secondary-color: #ffc107;
+	--accent1-color: #6c757d;
 	--accent2-color: #28a745;
 
 	--heading-font: "Lato", sans-serif;
 	--paragraph-font: "Montserrat", sans-serif;
 
-	--nav-bg-color: #f8f9fa;
-	--nav-link-color: #343a40;
-	--nav-hover-link-color: #007bff;
-	--nav-hover-background-color: #e9ecef;
+	--nav-bg-color: #ffc107;
+	--nav-link-color: #007bff;
+	--nav-hover-link-color: #fff;
+	--nav-hover-background-color: #6c757d;
 }
 
 body {
@@ -28,7 +28,7 @@ h1, h2, h3, h4, h5, h6 {
 
 header {
 	padding: 20px;
-	background-color: var(--accent-color);
+	background-color: var(--secondary-color);
 }
 
 p {
@@ -36,7 +36,7 @@ p {
 }
 
 nav {
-	background-color: var(--navigation-bg-color);
+	background-color: var(--nav-bg-color);
 	font-size: 1.2rem;
 	display: flex;
 	justify-content: space-between;
@@ -45,17 +45,17 @@ nav {
 
 nav a {
 	display: block;
-	color: var(--navigation-link-color);
+	color: var(--nav-link-color);
 	text-decoration: none;
 	padding: 1rem;
 }
 
 nav a:link,
 nav a:visited {
-	color: var(--navigation-link-color);
+	color: var(--nav-link-color);
 }
 
 nav a:hover {
-	color: var(--navigation-hover-link-color);
-	background-color: var(--navigation-hover-bg-color);
+	color: var(--nav-hover-link-color);
+	background-color: var(--nav-hover-background-color);
 }
