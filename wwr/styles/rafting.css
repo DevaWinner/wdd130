@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Montserrat:wght@400;500;600;700;800;900&display=swap");
+
+:root {
+	--primary-color: #007bff;
+	--secondary-color: #ffc107;
+	--accent1-color: #6c757d96;
+	--accent2-color: #28a745;
+	--heading-font: "Lato", sans-serif;
+	--paragraph-font: "Montserrat", sans-serif;
+	--nav-background-color: #ffc107;
+	--nav-link-color: #007bff;
+	--nav-hover-link-color: #fff;
+	--nav-hover-background-color: #6c757d;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--heading-font);
+  font-weight: 700;
+  line-height: 1.2;
+  margin: 2rem 0;
+  color: var(--primary-color);
+  text-transform: uppercase;
+}
+
+p {
+  font-family: var(--paragraph-font);
+}
+
+a {
+  text-decoration: none;
+  color: var(--nav-link-color);
+}
+
+a:hover {
+  color: var(--nav-hover-link-color);
+}
+
+.logo {
+  max-width: 150px;
+  height: auto;
+}
+
+img {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.hero {
+  position: relative;
+}
+
+.hero h1 {
+  position: absolute;
+  top: 10%;
+  background-color: #ffc107c7;
+  min-width: 100%;
+  padding: 0.5rem 0;
+  color:var(--primary-color);
+  text-align: center;
+  margin: 0;
+}
+
+article {
+  position: absolute;
+  padding: 1rem;
+  top: 30%;
+  left: 10%;
+  background-color: #28a746c7;
+  max-width: 80%;
+}
+
+article p {
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+article img {
+  width: 120px;
+  height: auto;
+  float: right;
+}
+
+.adventure img {
+  max-width: 450px;
+  height: auto;
+}
+
+footer img {
+  max-width: 40px;
+  height: auto;
+  display: inline;
+}
