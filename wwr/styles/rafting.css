@@ -55,13 +55,13 @@ nav {
   background-color: var(--nav-background-color);
 }
 
-.navigation a {
+.navigation li a {
   color: var(--nav-link-color);
 	text-decoration: none;
   font-weight: 600;
 }
 
-nav li:hover {
+.navigation li:hover {
 	background-color: var(--nav-hover-background-color);
 }
 
