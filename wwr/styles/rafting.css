@@ -10,7 +10,7 @@
 	--nav-background-color: #ffc107;
 	--nav-link-color: #007bff;
 	--nav-hover-link-color: #fff;
-	--nav-hover-background-color: #6c757d;
+	--nav-hover-background-color: #dfcc95;
 }
 
 * {
@@ -20,8 +20,49 @@
 }
 
 body {
+  font-family: var(--paragraph-font);
   font-size: 1rem;
   line-height: 1.6;
+}
+
+header {
+  margin: 1rem auto;
+  display: grid;
+  grid-template-columns: 600px 300px;
+  align-items: center;
+  justify-items: center;
+  background-color: var(--primary-color);
+  padding: 1rem;
+}
+
+.logo {
+	width: 100px;
+	height: auto;
+}
+
+nav {
+	text-align: center;
+}
+
+.navigation {
+	display: flex;
+	list-style: none;
+  gap: 3px;
+}
+
+.navigation li {
+  padding: 0.7rem 2rem;
+  background-color: var(--nav-background-color);
+}
+
+.navigation a {
+  color: var(--nav-link-color);
+	text-decoration: none;
+  font-weight: 600;
+}
+
+nav li:hover {
+	background-color: var(--nav-hover-background-color);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -35,20 +76,6 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
   font-family: var(--paragraph-font);
-}
-
-a {
-  text-decoration: none;
-  color: var(--nav-link-color);
-}
-
-a:hover {
-  color: var(--nav-hover-link-color);
-}
-
-.logo {
-  max-width: 150px;
-  height: auto;
 }
 
 img {
@@ -98,13 +125,65 @@ article img {
   float: right;
 }
 
+.history-container {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  margin: 2rem auto;
+}
+
+.history {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+  justify-items: center;
+  align-items: center;
+}
+
+.adventure-container {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  margin: 2rem auto;
+}
+
+.adventure {
+  display: flex;
+  gap: 2rem;
+}
+
+figure {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+}
+
 .adventure img {
-  max-width: 450px;
+  max-width: 250px;
   height: auto;
 }
 
+footer {
+  margin: 1rem auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  justify-items: end;
+  background-color: var(--primary-color);
+  padding: 1rem 2rem;
+  color: white;
+}
+
+.footer-img {
+  display: flex;
+  gap: 1.5rem;
+}
+
 footer img {
-  max-width: 40px;
+  max-width: 30px;
   height: auto;
   display: inline;
 }
