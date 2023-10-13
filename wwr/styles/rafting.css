@@ -182,8 +182,7 @@ footer {
   gap: 1.5rem;
 }
 
-footer img {
-  max-width: 30px;
-  height: auto;
-  display: inline;
+.footer-img a i {
+  font-size: 30px;
+  color: #fff;
 }
