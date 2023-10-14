@@ -1,16 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Montserrat:wght@400;500;600;700;800;900&display=swap");
 
 :root {
-	--primary-color: #007bff;
+	--primary-color: #065cb8;
 	--secondary-color: #ffc107;
 	--accent1-color: #6c757d96;
 	--accent2-color: #28a745;
 	--heading-font: "Lato", sans-serif;
 	--paragraph-font: "Montserrat", sans-serif;
-	--nav-background-color: #ffc107;
-	--nav-link-color: #007bff;
+	--nav-background-color: #f8f8f8;
+	--nav-link-color: #065cb8;
 	--nav-hover-link-color: #fff;
-	--nav-hover-background-color: #dfcc95;
+	--nav-hover-background-color: #e4e2df;
 }
 
 * {
@@ -182,9 +182,9 @@ footer {
   gap: 1.5rem;
 }
 
-.footer-img a i {
-  font-size: 30px;
-  color: #fff;
+.footer-img a img{
+  width: 40px;
+  height: auto;
 }
 
 /* Styling for Contact us page */
