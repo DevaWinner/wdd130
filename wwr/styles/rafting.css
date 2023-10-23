@@ -422,3 +422,104 @@ footer {
   font-size: 15px;
   cursor: pointer;
 }
+
+/* Trips Page Styling */
+
+.trips-hero {
+  width: 100%;
+  height: 500px;
+  position: relative;
+}
+
+.trips-hero div {
+  width: 100%;
+  height: 100%;
+}
+
+.trips-hero img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.trips-hero::before {
+  content: "";
+  position: absolute;
+  top: 70%;
+  left: 0;
+  background-color: rgb(6, 2, 12);
+  width: 100%;
+  height: 30%;
+  opacity: 0.6;
+  z-index: 1;
+}
+
+.hero-text {
+  max-width: 50%;
+  position: absolute;
+  top: 120%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+
+.hero-text h1 {
+  color: #fff;
+  font-weight: 800;
+  text-align: center;
+}
+
+.hero-text p {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: -20px;
+}
+
+.trip-container {
+  width: 100%;
+  margin: 4em auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+}
+
+.trip-heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+}
+
+.trip-heading h3 {
+  margin: 0;
+}
+
+.trip-heading p {
+  color: var(--paragraph-color);
+  font-weight: 500;
+  width: 70%;
+  text-align: center;
+}
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #3498db;
+  color: white;
+}
