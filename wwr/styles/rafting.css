@@ -2,7 +2,7 @@
 
 :root {
 	--primary-color: #065cb8;
-	--secondary-color: #ffc107;
+	--secondary-color: #3498db;
 	--accent1-color: #6c757d96;
 	--accent2-color: #28a745;
 	--heading-font: "Lato", sans-serif;
@@ -204,7 +204,7 @@ footer {
 
 .contact-hero {
   padding: 5em 10em;
-  background-color: var(--primary-color);
+  background-color: var(--secondary-color);
   display: flex;
   flex-direction: column;
   gap: 1em;
@@ -308,7 +308,7 @@ footer {
 .form-container {
   width: 100%;
   margin: 2em 0;
-  background-color: var(--primary-color);
+  background-color: var(--secondary-color);
   border-radius: 5px;
   padding: 4em;
   display: flex;
@@ -477,10 +477,38 @@ footer {
   margin-top: -20px;
 }
 
-.hero-cta button{
-  float: right;
-  margin: ;
+.cta-section {
+  background-color: #3498db;
+  color: #fff;
+  padding: 1em;
+  margin: 4em 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
 }
+
+.cta-section div:nth-child(1) {
+  width: 50%;
+}
+
+.cta-section h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.cta-section p {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+}
+
+.cta-section a.btn {
+  background-color: #fff;
+  color: var(--secondary-color);
+  font-weight: bold;
+}
+
 
 .trip-container {
   width: 100%;
@@ -512,7 +540,7 @@ footer {
 }
 
 .card-title{
-  color: #1489d8;
+  color: var(--secondary-color);
   margin: 0.5em 0;
 }
 
@@ -529,7 +557,7 @@ th, td {
 }
 
 th {
-  background-color: #3498db;
+  background-color: var(--secondary-color);
   color: white;
 }
 
@@ -546,7 +574,7 @@ th {
 }
 
 .card-header {
-  background-color: #2891d6;
+  background-color: var(--secondary-color);
 }
 
 .card-header button {
