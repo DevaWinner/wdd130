@@ -486,6 +486,7 @@ footer {
   justify-content: center;
   align-items: center;
   gap: 2em;
+  border-radius: 5px;
 }
 
 .cta-section div:nth-child(1) {
